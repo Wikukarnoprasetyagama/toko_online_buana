@@ -1,0 +1,668 @@
+body {
+  background-color: #fff;
+  font-family: 'Montserrat', serif;
+}
+
+.navbar-brand img {
+  max-height: 50px;
+}
+
+.navbar {
+  background-color: #F5EDEB !important;
+}
+
+.navbar-nav .nav-item a {
+  color: #332F6C !important;
+  font-size: 18px !important;
+  margin-left: 25px;
+}
+
+.navbar-nav .nav-item a:hover {
+  color: #F5C65B !important;
+}
+
+.navbar-nav .nav-item.active a {
+  color: #F5C65B !important;
+  font-weight: 600 !important;
+}
+
+.navbar-nav .nav-icon {
+  color: #F5C65B;
+}
+
+.btn-masuk-mobile {
+  background-color: #F5C65B;
+  color: #fff;
+}
+
+.btn-masuk-mobile:hover {
+  color: #F5D58B;
+}
+
+.btn-masuk-desktop:hover {
+  color: #F5D58B;
+}
+
+.nav-icon {
+  color: #F5C65B;
+}
+
+.nav-icon:hover {
+  color: #F5D58B;
+}
+
+.carousel {
+  height: 450px;
+}
+
+.carousel .img-fluid {
+  height: 450px !important;
+}
+
+.carousel .item-header {
+  padding-top: 100px !important;
+}
+
+.carousel h1 {
+  font-family: 'Playfair Display', serif;
+  font-weight: 600;
+  color: #332F6C;
+}
+
+.carousel p {
+  color: #C2C6C6;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.carousel .btn-get-it-now {
+  background-color: #F5C65B;
+  color: #fff;
+}
+
+.carousel .btn-get-it-now:hover {
+  background-color: #F5D58B;
+  color: #fff;
+}
+
+.section-brands {
+  background-color: #fff;
+  margin-top: -170px;
+  padding-top: 200px;
+  padding-bottom: 50px;
+}
+
+.section-brands h2 {
+  font-family: 'Playfair Display', serif;
+  font-weight: bold;
+  color: #332F6C;
+}
+
+.section-brands p {
+  font-size: 18px;
+  font-weight: 400;
+  color: #C2C6C6;
+}
+
+.section-brands img {
+  max-width: 100%;
+}
+
+.section-features h3 {
+  font-family: 'Playfair Display', serif;
+  font-size: 28px;
+  color: #332F6C;
+  font-weight: 600;
+}
+
+.section-features .section-item .figure-img {
+  min-height: 290px;
+}
+
+.section-features .section-item h5 {
+  font-size: 20px;
+  font-weight: 500;
+  color: #332F6C;
+}
+
+.section-features .section-item p {
+  font-size: 18px;
+  font-weight: 400;
+  color: #C2C6C6;
+}
+
+.section-features .section-item .ratting {
+  margin-top: -50px;
+}
+
+.section-features .feature-img-hover {
+  position: relative;
+}
+
+.section-features .feature-img-hover a {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 8px;
+  background-color: rgba(0, 0, 0, 0.5);
+  opacity: 0;
+  -webkit-transition: opacity 0.7s;
+  transition: opacity 0.7s;
+}
+
+.section-features .feature-img-hover a:hover {
+  opacity: 1;
+}
+
+@media (max-width: 414px) {
+  .section-features {
+    text-align: center;
+  }
+  .section-features h3 {
+    font-family: 'Playfair Display', serif;
+    font-size: 28px;
+    color: #332F6C;
+    font-weight: 600;
+  }
+  .section-features .section-item .figure-img {
+    min-height: 290px;
+  }
+  .section-features .section-item h5 {
+    font-size: 20px;
+    font-weight: 500;
+    color: #332F6C;
+  }
+  .section-features .section-item p {
+    font-size: 18px;
+    font-weight: 400;
+    color: #C2C6C6;
+  }
+  .section-features .section-item .ratting {
+    margin-top: -50px;
+  }
+  .section-features .feature-img-hover {
+    position: relative;
+  }
+  .section-features .feature-img-hover a {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 8px;
+    background-color: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    -webkit-transition: opacity 0.7s;
+    transition: opacity 0.7s;
+  }
+  .section-features .feature-img-hover a:hover {
+    opacity: 1;
+  }
+}
+
+.section-popular-product h3 {
+  font-family: 'Playfair Display', serif;
+  font-size: 28px;
+  color: #332F6C;
+  font-weight: 600;
+}
+
+.section-popular-product .section-popular-item h5 {
+  font-size: 20px;
+  font-weight: 500;
+  color: #332F6C;
+}
+
+.section-popular-product .section-popular-item p {
+  font-size: 18px;
+  font-weight: 400;
+  color: #C2C6C6;
+}
+
+.section-popular-product .section-popular-item .ratting {
+  margin-top: -50px;
+}
+
+.section-popular-product .figure-img {
+  position: relative;
+}
+
+.section-popular-product .figure-img a {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 8px;
+  background-color: rgba(0, 0, 0, 0.5);
+  opacity: 0;
+  -webkit-transition: opacity 0.7s;
+  transition: opacity 0.7s;
+}
+
+.section-popular-product .figure-img a:hover {
+  opacity: 1;
+}
+
+.section-discount h3 {
+  font-family: 'Playfair Display', serif;
+  font-size: 28px;
+  color: #332F6C;
+  font-weight: 600;
+}
+
+.section-discount .section-discount-item .discount-item-img {
+  margin-top: 16px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.footer-buana-store .social-media {
+  max-height: 40px;
+}
+
+.footer-buana-store .copyright {
+  font-size: 18px;
+  font-weight: 400;
+  color: #C2C6C6;
+}
+
+.footer-buana-store .nav-footer-item a {
+  color: #332F6C;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.footer-buana-store .nav-footer-item a:hover {
+  color: #F5C65B;
+}
+
+.section-single-product .breadcrumb .breadcrumb-item a {
+  font-size: 18px;
+  color: #332f6c;
+  text-decoration: none;
+}
+
+.section-single-product .breadcrumb .breadcrumb-item.active {
+  font-size: 18px;
+  font-weight: 400;
+  color: #B8C5CA;
+}
+
+.section-single-product .media p {
+  font-size: 16px;
+  font-weight: 500;
+  color: #E2C99D !important;
+}
+
+.section-single-product .item-heading h3 {
+  font-weight: 500;
+  font-size: 30px;
+  text-align: left;
+  color: #332f6c !important;
+}
+
+.section-single-product .item-heading p {
+  font-weight: normal;
+  font-size: 16px;
+  text-align: left;
+  color: #b8c5ca;
+}
+
+.section-single-product .item-heading .harga {
+  font-size: 20px;
+  font-weight: 500;
+  color: #000;
+}
+
+.section-single-product .form-amount {
+  width: 120px !important;
+}
+
+.section-single-product .message {
+  width: 62px;
+  height: 45px;
+  border-radius: 4px;
+  background: #f5edeb;
+}
+
+.section-single-product .message:hover {
+  background: #f7e7e3;
+}
+
+.section-single-product .btn-add-wishlist {
+  width: 168px;
+  height: 45px;
+  border-radius: 4px;
+  background: #ffedcc;
+  color: #000;
+}
+
+.section-single-product .btn-add-wishlist:hover {
+  background: #fae3b8;
+}
+
+.section-single-product .btn-add-cart {
+  width: 168px;
+  height: 45px;
+  border-radius: 4px;
+  background: #f5c65b;
+  font-size: 18px;
+  text-align: center;
+  color: #fff8ec;
+}
+
+.section-single-product .btn-add-cart:hover {
+  background-color: #F5D58B;
+  color: #fff;
+}
+
+.section-single-product .description h3 {
+  font-family: 'Playfair Display', serif;
+  font-weight: bold;
+  font-size: 28px;
+  text-align: left;
+  color: #332f6c !important;
+}
+
+.section-single-product .description .form-description {
+  background-color: #F1F1F1;
+  border-radius: 11px;
+  height: 279px;
+  overflow: auto;
+}
+
+.section-single-product .description .form-description p {
+  font-size: 14px;
+  font-weight: 300;
+  letter-spacing: 1px;
+}
+
+.section-single-product .form-ulasan {
+  background-color: #F1F1F1;
+  border-radius: 11px;
+  height: 279px;
+  overflow: auto;
+}
+
+.section-single-product .form-ulasan .media h5 {
+  font-size: 14px;
+  font-weight: 600;
+  color: #332f6c;
+}
+
+.section-single-product .form-ulasan .media p {
+  font-size: 12px;
+  color: #000 !important;
+  font-weight: 300;
+}
+
+.section-single-product .form-ulasan .figure {
+  margin-top: 50px;
+}
+
+.section-similiar-features h3 {
+  font-family: 'Playfair Display', serif;
+  font-size: 28px;
+  color: #332F6C;
+  font-weight: 600;
+}
+
+.section-similiar-features .section-item .figure-img {
+  min-height: 290px;
+}
+
+.section-similiar-features .section-item h5 {
+  font-size: 20px;
+  font-weight: 500;
+  color: #332F6C;
+}
+
+.section-similiar-features .section-item p {
+  font-size: 18px;
+  font-weight: 400;
+  color: #C2C6C6;
+}
+
+.section-similiar-features .section-item .ratting {
+  margin-top: -50px;
+}
+
+.section-similiar-features .feature-img-hover {
+  position: relative;
+}
+
+.section-similiar-features .feature-img-hover a {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 8px;
+  background-color: rgba(0, 0, 0, 0.5);
+  opacity: 0;
+  -webkit-transition: opacity 0.7s;
+  transition: opacity 0.7s;
+}
+
+.section-similiar-features .feature-img-hover a:hover {
+  opacity: 1;
+}
+
+.checkout-heading h1 {
+  font-weight: bold;
+  font-size: 28px;
+  color: #332f6c;
+}
+
+.checkout-heading p {
+  font-size: 20px;
+  text-align: center;
+  color: #b8c5ca;
+}
+
+.section-checkout h2 {
+  font-family: "Playfair Display";
+  font-weight: bold;
+  font-size: 28px;
+  color: #332f6c;
+}
+
+.section-checkout .checkout-media .media-body .media p {
+  font-weight: 500;
+  font-size: 14px;
+  color: #e2c99d;
+}
+
+.section-checkout .checkout-media .media-body .item-checkout h5 {
+  margin-top: -10px;
+  font-weight: 500;
+  font-size: 18px;
+  color: #332f6c;
+}
+
+.section-checkout .checkout-media .media-body .item-checkout img {
+  margin-top: -10px;
+}
+
+.section-checkout .checkout-media .media-body .item-checkout p {
+  font-weight: 500;
+  font-size: 18px;
+  color: #b8c5ca;
+}
+
+.section-checkout .checkout-media .media-body .form-amount {
+  max-width: 120px;
+  text-align: center;
+  margin-top: -10px;
+}
+
+.section-checkout .checkout-media .media-body .form-amount span {
+  font-size: 14px;
+  text-align: center;
+  color: #f5c65b;
+}
+
+.section-checkout .harga-heading h2 {
+  font-family: "Playfair Display";
+  font-weight: bold;
+  font-size: 28px;
+  color: #332f6c;
+}
+
+.section-checkout .card-harga .title-barang {
+  font-size: 16px;
+  font-weight: 500;
+  color: #332F6C;
+}
+
+.section-checkout .card-harga td {
+  font-size: 16px;
+  font-weight: 300;
+  color: #F5C65B;
+}
+
+.section-checkout .card-harga hr {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.section-checkout .card-harga span {
+  color: #18D4A1;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.section-checkout .card-harga table .total-checkout {
+  font-size: 16px;
+  font-weight: 600;
+  color: #332F6C;
+}
+
+.section-checkout .card-harga .btn-checkout {
+  background: #f5c65b;
+  color: #fff;
+}
+
+.section-checkout .card-harga .btn-checkout:hover {
+  background: #FCBE2F;
+  color: #fff;
+}
+
+.section-checkout .card-harga .btn-cancel {
+  font-weight: 400;
+  font-size: 20px;
+  color: #b8c5ca;
+}
+
+.succes-checkout .modal-dialog .modal-content .modal-body h3 {
+  font-family: "Playfair Display";
+  font-weight: bold;
+  font-size: 28px;
+  color: #332f6c;
+}
+
+.succes-checkout .modal-dialog .modal-content .modal-body p {
+  font-size: 20px;
+  color: #b8c5ca;
+}
+
+.succes-checkout .modal-dialog .modal-content .modal-body .btn-back {
+  background: #f5c65b;
+  color: #fff;
+}
+
+.section-address .btn-simpan {
+  background: #f5c65b;
+  color: #fff;
+}
+
+.section-address .btn-simpan:hover {
+  background-color: #FCBE2F;
+  color: #fff;
+}
+
+.section-login {
+  margin-top: 50px;
+}
+
+.section-login .title-masuk {
+  font-size: 18px;
+  color: #332f6c;
+}
+
+.section-login form p {
+  font-size: 18px;
+  text-align: center;
+  color: #B8C5CA;
+}
+
+.section-login form p a {
+  color: #332F6C;
+  text-decoration: none;
+}
+
+.section-login form p a:hover {
+  color: #F5C65B;
+  text-decoration: none;
+}
+
+.section-login form .btn-masuk {
+  background-color: #f5c65b;
+  color: #fff;
+}
+
+.section-login form .btn-masuk:hover {
+  background-color: #FFDB88;
+}
+
+.section-login form .forgot-password:hover {
+  color: #F5C65B;
+  text-decoration: none;
+}
+
+.section-login form .btn-google {
+  background: #ffedcc;
+  color: #332F6C;
+}
+
+.section-login form .btn-google:hover {
+  background-color: #FCE0AC;
+}
+
+.section-login form .btn-facebook {
+  background: #f1f1f1;
+  color: #332F6C;
+}
+
+.section-login form .btn-facebook:hover {
+  background-color: #D9D9D9;
+}
+
+.section-login .logo-buana {
+  margin-top: 50px;
+}
+
+.section-login .logo-buana h3 {
+  margin-top: 10px;
+  font-weight: bold;
+  font-size: 30px;
+  text-align: center;
+  color: #332f6c;
+}
+
+.success-simpan .modal-dialog .modal-content .modal-body h3 {
+  font-family: "Playfair Display";
+  font-weight: bold;
+  font-size: 28px;
+  color: #332f6c;
+}
+
+.success-simpan .modal-dialog .modal-content .modal-body p {
+  font-size: 20px;
+  color: #b8c5ca;
+}
+
+.success-simpan .modal-dialog .modal-content .modal-body .btn-back {
+  background: #f5c65b;
+  color: #fff;
+}
+/*# sourceMappingURL=main.css.map */

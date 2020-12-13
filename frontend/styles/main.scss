@@ -1,0 +1,800 @@
+body {
+    background-color: #fff;
+    font-family: 'Montserrat', serif;
+}
+
+// Navbar
+.navbar-brand {
+    img {
+        max-height: 50px;
+    }
+}
+
+.navbar {
+    background-color: #F5EDEB !important;
+}
+
+.navbar-nav {
+    .nav-item a {
+        color: #332F6C !important;
+        font-size: 18px !important;
+        margin-left: 25px;
+
+        &:hover {
+            color: #F5C65B !important;
+        }
+    }
+
+    .nav-item.active a {
+        color: #F5C65B !important;
+        font-weight: 600 !important;
+    }
+
+    .nav-icon {
+        color: #F5C65B;
+    }
+}
+
+.btn-masuk-mobile {
+    background-color: #F5C65B;
+    color: #fff;
+
+    &:hover {
+        color: #F5D58B;
+    }
+}
+
+.btn-masuk-desktop {
+
+    &:hover {
+        color: #F5D58B;
+    }
+}
+
+.nav-icon {
+    color: #F5C65B;
+
+    &:hover {
+        color: #F5D58B;
+    }
+}
+
+// End Navbar
+
+// Carousel
+.carousel {
+    height: 450px;
+
+    .img-fluid {
+        height: 450px !important;
+    }
+
+    .item-header {
+        padding-top: 100px !important;
+    }
+
+    h1 {
+        font-family: 'Playfair Display', serif;
+        font-weight: 600;
+        color: #332F6C;
+    }
+
+    p {
+        color: #C2C6C6;
+        font-weight: 400;
+        font-size: 20px;
+    }
+
+    .btn-get-it-now {
+        background-color: #F5C65B;
+        color: #fff;
+
+        &:hover {
+            background-color: #F5D58B;
+            color: #fff;
+        }
+    }
+}
+
+// End Carousel
+
+// Our Brands
+.section-brands {
+    background-color: #fff;
+    margin-top: -170px;
+    padding-top: 200px;
+    padding-bottom: 50px;
+
+    h2 {
+        font-family: 'Playfair Display', serif;
+        font-weight: bold;
+        color: #332F6C;
+    }
+
+    p {
+        font-size: 18px;
+        font-weight: 400;
+        color: #C2C6C6;
+    }
+
+    img {
+        max-width: 100%;
+    }
+}
+
+// End Our Brands
+
+// New Product
+.section-features {
+    h3 {
+        font-family: 'Playfair Display', serif;
+        font-size: 28px;
+        color: #332F6C;
+        font-weight: 600;
+    }
+
+    .section-item {
+        .figure-img {
+            min-height: 290px;
+        }
+
+        h5 {
+            font-size: 20px;
+            font-weight: 500;
+            color: #332F6C;
+        }
+
+        p {
+            font-size: 18px;
+            font-weight: 400;
+            color: #C2C6C6;
+        }
+
+        .ratting {
+            margin-top: -50px;
+        }
+    }
+
+    .feature-img-hover {
+        position: relative;
+    }
+
+    .feature-img-hover a {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 8px;
+        background-color: rgba(0, 0, 0, 0.5);
+        opacity: 0;
+        transition: opacity 0.7s;
+
+        &:hover {
+            opacity: 1;
+        }
+    }
+}
+
+// End New Product
+
+@media (max-width:414px) {
+
+    // New Product
+    .section-features {
+        text-align: center;
+
+        h3 {
+            font-family: 'Playfair Display', serif;
+            font-size: 28px;
+            color: #332F6C;
+            font-weight: 600;
+        }
+
+        .section-item {
+            .figure-img {
+                min-height: 290px;
+            }
+
+            h5 {
+                font-size: 20px;
+                font-weight: 500;
+                color: #332F6C;
+            }
+
+            p {
+                font-size: 18px;
+                font-weight: 400;
+                color: #C2C6C6;
+            }
+
+            .ratting {
+                margin-top: -50px;
+            }
+        }
+
+        .feature-img-hover {
+            position: relative;
+        }
+
+        .feature-img-hover a {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 8px;
+            background-color: rgba(0, 0, 0, 0.5);
+            opacity: 0;
+            transition: opacity 0.7s;
+
+            &:hover {
+                opacity: 1;
+            }
+        }
+    }
+
+    // End New Product
+}
+
+// Product Popular
+.section-popular-product {
+    h3 {
+        font-family: 'Playfair Display', serif;
+        font-size: 28px;
+        color: #332F6C;
+        font-weight: 600;
+    }
+
+    .section-popular-item {
+
+        h5 {
+            font-size: 20px;
+            font-weight: 500;
+            color: #332F6C;
+        }
+
+        p {
+            font-size: 18px;
+            font-weight: 400;
+            color: #C2C6C6;
+        }
+
+        .ratting {
+            margin-top: -50px;
+        }
+    }
+
+    .figure-img {
+        position: relative;
+    }
+
+    .figure-img a {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 8px;
+        background-color: rgba(0, 0, 0, 0.5);
+        opacity: 0;
+        transition: opacity 0.7s;
+
+        &:hover {
+            opacity: 1;
+        }
+    }
+}
+
+// End Product Popular
+
+// Discount
+.section-discount {
+    h3 {
+        font-family: 'Playfair Display', serif;
+        font-size: 28px;
+        color: #332F6C;
+        font-weight: 600;
+    }
+
+    .section-discount-item {
+        .discount-item-img {
+            margin-top: 16px;
+            box-sizing: border-box;
+        }
+    }
+}
+
+// End Discount
+
+// Footer
+.footer-buana-store {
+    .social-media {
+        max-height: 40px;
+    }
+
+    .copyright {
+        font-size: 18px;
+        font-weight: 400;
+        color: #C2C6C6;
+    }
+
+    .nav-footer-item a {
+        color: #332F6C;
+        font-size: 18px;
+        text-decoration: none;
+
+        &:hover {
+            color: #F5C65B;
+        }
+    }
+}
+
+// End Footer
+
+// Single Product
+.section-single-product {
+    .breadcrumb {
+        .breadcrumb-item {
+            a {
+                font-size: 18px;
+                color: #332f6c;
+                text-decoration: none;
+            }
+        }
+
+        .breadcrumb-item.active {
+            font-size: 18px;
+            font-weight: 400;
+            color: #B8C5CA;
+        }
+    }
+
+    .media {
+        p {
+            font-size: 16px;
+            font-weight: 500;
+            color: #E2C99D !important;
+        }
+    }
+
+    .item-heading {
+        h3 {
+            font-weight: 500;
+            font-size: 30px;
+            text-align: left;
+            color: #332f6c !important;
+        }
+
+        p {
+            font-weight: normal;
+            font-size: 16px;
+            text-align: left;
+            color: #b8c5ca;
+        }
+
+        .harga {
+            font-size: 20px;
+            font-weight: 500;
+            color: #000;
+        }
+    }
+
+    .form-amount {
+        width: 120px !important;
+    }
+
+    .message {
+        width: 62px;
+        height: 45px;
+        border-radius: 4px;
+        background: #f5edeb;
+
+        &:hover {
+            background: #f7e7e3;
+        }
+    }
+
+    .btn-add-wishlist {
+        width: 168px;
+        height: 45px;
+        border-radius: 4px;
+        background: #ffedcc;
+        color: #000;
+
+        &:hover {
+            background: #fae3b8;
+        }
+    }
+
+    .btn-add-cart {
+        width: 168px;
+        height: 45px;
+        border-radius: 4px;
+        background: #f5c65b;
+        font-size: 18px;
+        text-align: center;
+        color: #fff8ec;
+
+        &:hover {
+            background-color: #F5D58B;
+            color: #fff;
+        }
+    }
+
+    .description {
+        h3 {
+            font-family: 'Playfair Display', serif;
+            font-weight: bold;
+            font-size: 28px;
+            text-align: left;
+            color: #332f6c !important;
+        }
+
+        .form-description {
+            background-color: #F1F1F1;
+            border-radius: 11px;
+            height: 279px;
+            overflow: auto;
+
+            p {
+                font-size: 14px;
+                font-weight: 300;
+                letter-spacing: 1px;
+            }
+        }
+    }
+
+    .form-ulasan {
+        background-color: #F1F1F1;
+        border-radius: 11px;
+        height: 279px;
+        overflow: auto;
+
+        .media {
+            h5 {
+                font-size: 14px;
+                font-weight: 600;
+                color: #332f6c;
+            }
+
+            p {
+                font-size: 12px;
+                color: #000 !important;
+                font-weight: 300;
+            }
+        }
+
+        .figure {
+            margin-top: 50px;
+        }
+    }
+}
+
+.section-similiar-features {
+    h3 {
+        font-family: 'Playfair Display', serif;
+        font-size: 28px;
+        color: #332F6C;
+        font-weight: 600;
+    }
+
+    .section-item {
+        .figure-img {
+            min-height: 290px;
+        }
+
+        h5 {
+            font-size: 20px;
+            font-weight: 500;
+            color: #332F6C;
+        }
+
+        p {
+            font-size: 18px;
+            font-weight: 400;
+            color: #C2C6C6;
+        }
+
+        .ratting {
+            margin-top: -50px;
+        }
+    }
+
+    .feature-img-hover {
+        position: relative;
+    }
+
+    .feature-img-hover a {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 8px;
+        background-color: rgba(0, 0, 0, 0.5);
+        opacity: 0;
+        transition: opacity 0.7s;
+
+        &:hover {
+            opacity: 1;
+        }
+    }
+}
+
+// End Single Product
+
+// Checkout
+.checkout-heading {
+    h1 {
+        font-weight: bold;
+        font-size: 28px;
+        color: #332f6c;
+    }
+
+    p {
+        font-size: 20px;
+        text-align: center;
+        color: #b8c5ca;
+    }
+}
+
+.section-checkout {
+
+
+    h2 {
+        font-family: "Playfair Display";
+        font-weight: bold;
+        font-size: 28px;
+        color: #332f6c;
+    }
+
+    .checkout-media {
+        .media-body {
+            .media {
+                p {
+                    font-weight: 500;
+                    font-size: 14px;
+                    color: #e2c99d;
+                }
+            }
+
+            .item-checkout {
+                h5 {
+                    margin-top: -10px;
+                    font-weight: 500;
+                    font-size: 18px;
+                    color: #332f6c;
+                }
+
+                img {
+                    margin-top: -10px;
+                }
+
+                p {
+                    font-weight: 500;
+                    font-size: 18px;
+                    color: #b8c5ca;
+                }
+
+
+            }
+
+            .form-amount {
+                max-width: 120px;
+                text-align: center;
+                margin-top: -10px;
+
+                span {
+                    font-size: 14px;
+                    text-align: center;
+                    color: #f5c65b;
+
+                }
+            }
+        }
+    }
+
+    .harga-heading {
+        h2 {
+            font-family: "Playfair Display";
+            font-weight: bold;
+            font-size: 28px;
+            color: #332f6c;
+        }
+    }
+
+    .card-harga {
+
+        .title-barang {
+            font-size: 16px;
+            font-weight: 500;
+            color: #332F6C;
+        }
+
+        td {
+            font-size: 16px;
+            font-weight: 300;
+            color: #F5C65B;
+        }
+
+        hr {
+            margin-left: 20px;
+            margin-right: 20px;
+        }
+
+        span {
+            color: #18D4A1;
+            font-size: 16px;
+            font-weight: 600;
+        }
+
+        table {
+
+            .total-checkout {
+                font-size: 16px;
+                font-weight: 600;
+                color: #332F6C;
+
+            }
+
+        }
+
+        .btn-checkout {
+            background: #f5c65b;
+            color: #fff;
+
+            &:hover {
+                background: #FCBE2F;
+                color: #fff;
+            }
+        }
+
+        .btn-cancel {
+            font-weight: 400;
+            font-size: 20px;
+            color: #b8c5ca;
+        }
+    }
+}
+
+// End Checkout
+// Modal Success
+.succes-checkout {
+    .modal-dialog {
+        .modal-content {
+            .modal-body {
+                h3 {
+                    font-family: "Playfair Display";
+                    font-weight: bold;
+                    font-size: 28px;
+                    color: #332f6c;
+                }
+
+                p {
+                    font-size: 20px;
+                    color: #b8c5ca;
+                }
+
+                .btn-back {
+                    background: #f5c65b;
+                    color: #fff;
+                }
+            }
+        }
+    }
+}
+
+.section-address {
+    .btn-simpan {
+        background: #f5c65b;
+        color: #fff;
+
+        &:hover {
+            background-color: #FCBE2F;
+            color: #fff;
+        }
+    }
+}
+
+// End Modal Succes
+
+// Login
+.section-login {
+    margin-top: 50px;
+
+    .title-masuk {
+        font-size: 18px;
+        color: #332f6c;
+    }
+
+    form {
+        p {
+            font-size: 18px;
+            text-align: center;
+            color: #B8C5CA;
+
+            a {
+                color: #332F6C;
+                text-decoration: none;
+
+                &:hover {
+                    color: #F5C65B;
+                    text-decoration: none;
+                }
+            }
+        }
+
+        .btn-masuk {
+            background-color: #f5c65b;
+            color: #fff;
+
+            &:hover {
+                background-color: #FFDB88;
+            }
+        }
+
+        .forgot-password {
+            &:hover {
+                color: #F5C65B;
+                text-decoration: none;
+            }
+        }
+
+        .btn-google {
+            background: #ffedcc;
+            color: #332F6C;
+
+            &:hover {
+                background-color: #FCE0AC;
+            }
+        }
+
+        .btn-facebook {
+            background: #f1f1f1;
+            color: #332F6C;
+
+            &:hover {
+                background-color: #D9D9D9;
+            }
+        }
+    }
+
+    .logo-buana {
+        margin-top: 50px;
+
+        h3 {
+            margin-top: 10px;
+            font-weight: bold;
+            font-size: 30px;
+            text-align: center;
+            color: #332f6c;
+        }
+    }
+}
+
+// End Login
+
+// success simpan
+.success-simpan {
+    .modal-dialog {
+        .modal-content {
+            .modal-body {
+                h3 {
+                    font-family: "Playfair Display";
+                    font-weight: bold;
+                    font-size: 28px;
+                    color: #332f6c;
+                }
+
+                p {
+                    font-size: 20px;
+                    color: #b8c5ca;
+                }
+
+                .btn-back {
+                    background: #f5c65b;
+                    color: #fff;
+                }
+            }
+        }
+    }
+}
+
+// end success simpan 
